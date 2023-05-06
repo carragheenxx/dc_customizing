@@ -1,3 +1,104 @@
+/* dm log fonts */[class^="name-2m"]{
+font-family: var(--dm-log-font);
+color: var(--dm-log-font-color) !important;
+}
+/* dm log fonts selected*/ [class*="interactiveSelected"] [class^="name-2m"]{
+font-family: var(--dm-log-font-selected);
+color: var(--dm-log-font-selected-color) !important;
+}
+
+/* gc subtext */.subtext-14b69p{
+font-family: var(--dm-log-font-subtext);
+color: var(--dm-log-font-subtext-color) !important;
+}
+
+/* container */ [class^="name-3B"]{
+font-family: var(--container-log-font);
+font-style: var(--container-log-font-style);
+color: var(--container-log-font-color) !important;
+}
+/* channel font */[class^="name-28"]{
+font-family: var(--channel-log-font);
+color: var(--channel-log-font-color) !important;}
+/* channel font selected */.containerDefault-YUSmu3.selected-2TbFuo [class^="name-28"]{
+font-family: var(--channel-log-font-selected) ;
+font-style: var(--channel-log-font-selected-style);
+color: var(--channel-log-font-selected-color) !important;
+}
+
+
+
+
+/* message/main text */.markup-eYLPri{
+font-family: var(--text-1-font) !important;
+}
+/* editing-text */.editor-H2NA06{
+color: var(--written-text-color) !important;
+font-family: var(--written-text-font);
+}
+/* headers */.header-2jRmjb{
+font-family: var(--header-font) !important;
+}
+::selection{
+background-color: var(--highlighter-color);
+font-family: var(--highlighted-text-font);
+}
+:root{
+--text-selected: var(--highlighted-text-color);
+--text-normal: var(--text-1-color);
+--header-primary: var(--header-1-color);
+--header-secondary: var(--header-2-color);
+--text-muted: var(--text-2-color) !important;
+}
+
+
+    /* friend's-username-highlight */.children-3xh0VB{
+    border-radius: var(--dmtb-username-border-radius);
+    border-color: var(--dmtb-username-border-color);
+    border-width: var(--dmtb-username-border-width);
+    border-style: var(--dmtb-username-border-style);
+    background-color: var(--dmtb-username-highlighter); 
+    }
+    /* friends-username-text */.defaultColor-1EVLSt.heading-md-semibold-2h_vsp.defaultColor-1GKx81.cursorPointer-3JF56F.title-17SveM{
+    color: var(--dmtb-username-text-color);    
+    font-style: var(--dmtb-username-text-style); 
+    font-family: var(--dmtb-username-font);
+    }
+
+
+    /* server-name */.lineClamp1-1voJi7.text-md-semibold-2VMhBr.name-3Uvkvr{
+    border-radius: var(--server-name-border-radius);
+    border-color: var(--server-name-border-color);
+    border-width: var(--server-name-border-width);
+    border-style: var(--server-name-border-style);
+    background-color: var(--server-name-highlighter); 
+    }
+    /* server-name-text */.name-3Uvkvr{
+    color: var(--server-name-text-color);
+    font-style: var(--server-name-text-style);
+    font-family: var(--server-name-font);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -5,6 +5,7 @@ color: var(--dm-log-font-color) !important;
 /* dm log fonts selected*/ [class*="interactiveSelected"] [class^="name-2m"]{
 font-family: var(--dm-log-font-selected);
 color: var(--dm-log-font-selected-color) !important;
+font-style: var(--dm-log-font-selected-style) !important;
 }
 
 /* gc subtext */.subtext-14b69p{

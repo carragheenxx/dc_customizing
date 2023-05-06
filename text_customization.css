@@ -50,6 +50,11 @@ font-family: var(--highlighted-text-font);
 --header-secondary: var(--header-2-color);
 --text-muted: var(--text-2-color) !important;
 }
+/*coding text*/#message-content-1104246132852404317 {
+font-family: var(--code-log-font) ;
+font-style: var(--code-log-font-style);
+color: var(--code-log-font-color) !important;
+}
 
 
     /* friend's-username-highlight */.children-3xh0VB{

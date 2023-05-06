@@ -1,0 +1,48 @@
+/*code from CHILLAX*/
+
+
+/*welcome text*/
+body:before {
+  content: var(--greetings);
+  z-index: 1000000000000000000000000;
+  color: var(--greetingtextcolor);
+  background-color: var(--greetingbgcolor);
+  top: -1px;
+  left: 52%;
+  position: absolute;
+  border-radius: var(--greetingborderradius);
+  padding: 5px 15px;
+  transform: translate(-60%, -100%);
+  animation: chl 3s ease;
+  animation-delay: 4s;
+}
+
+@-webkit-keyframes chl {
+  from {
+    transform: translate(-60%, -100%);
+  }
+  20% {
+    transform: translate(-60%, 20%);
+  }
+  80% {
+    transform: translate(-60%, 20%);
+  }
+  to {
+    transform: translate(-60%, -100%);
+  }
+}
+
+@keyframes chl {
+  from {
+    transform: translate(-60%, -100%);
+  }
+  20% {
+    transform: translate(-60%, 20%);
+  }
+  80% {
+    transform: translate(-60%, 20%);
+  }
+  to {
+    transform: translate(-60%, -100%);
+  }
+}

@@ -1,0 +1,63 @@
+
+/*remove Discord top-left*/
+:root .wordmark-2u86JB svg, svg[viewBox="0 0 55 16"] g[fill="currentColor"] {
+fill: transparent !important;
+display: none;
+}
+
+.winButton-3UMjdg svg {
+  display: none;
+}
+.withFrame-2dL45i .winButton-3UMjdg::after, .winButton-3UMjdg:not(:last-child)::after {
+  content: "";
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+.winButton-3UMjdg:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.winButtonClose-3Q8ZH5 {
+  margin-right: 0px;
+}
+.winButtonClose-3Q8ZH5::after {
+  padding: 13px;
+  background-image: var(--closebutton);
+  background-size: 100%;
+  
+}
+.winButtonClose-3Q8ZH5:hover::after {
+  padding: 13px;
+  background-image: var(--closebutton);
+  background-size: 100%;
+  rotate: 10deg;
+}
+
+.winButtonMinMax-3RsPUg:nth-child(3) {
+  margin-right: 0px;
+  margin-left: 0px
+}
+.winButtonMinMax-3RsPUg:nth-child(3)::after {
+  padding: 13px;
+  background-image: var(--maxbutton);
+  background-size: 100%;
+}
+.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+  padding: 13px;
+  background-image: var(--maxbutton);
+  background-size: 100%;
+  rotate: 10deg;
+}
+
+.winButtonMinMax-3RsPUg:last-child::after {
+  padding: 13px;
+  background-image: var(--minbutton);
+  background-size: 100%;
+}
+.winButtonMinMax-3RsPUg:last-child:hover::after {
+  padding: 13px;
+  background-image: var(--minbutton);
+  background-size: 100%;
+  rotate: 10deg;
+}
